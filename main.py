@@ -3,7 +3,7 @@ from PyPDF2 import PdfReader
 from llama_backend import evaluate_cv_with_job_offer  # Importer la fonction backend
 
 # Titre de l'application
-st.title("Évaluation des CV par rapport à une offre d'emploi")
+st.title("jobFit AI - CV Evaluation Tool")
 
 # Zone de texte pour entrer l'offre d'emploi
 st.subheader("Entrez l'offre d'emploi")
