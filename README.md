@@ -1,17 +1,12 @@
-# JobFit AI - CV Evaluation Tool
+# Job Cover Letter AI
 
-JobFit AI is an intelligent CV evaluation tool that helps recruiters and job seekers assess the alignment between a CV and a job description. Using advanced AI technology powered by Llama 3.2, it provides detailed analysis and actionable insights.
+Job Cover Letter AI is an intelligent Cover Letter Writer tool that helps job seekers to write a good Cover Letter Draft based on a job description and a Resume. Using advanced AI technology powered by Llama 3.2, it provides a 3 drafts.
 
 ## Features
 
 - **CV Upload**: Support for PDF format CVs
 - **Job Description Analysis**: Paste any job description for analysis
-- **Comprehensive Evaluation**: Get detailed insights including:
-  - Matching Score (0-100)
-  - Key Strengths
-  - Missing Qualifications
-  - Improvement Suggestions
-- **User-Friendly Interface**: Built with Streamlit for a smooth user experience
+- **Cover Letter writing
 
 ## Prerequisites
 
@@ -46,7 +41,7 @@ streamlit run main.py
 3. Use the interface to:
    - Paste the job description
    - Upload a CV in PDF format
-   - Click "Évaluer le CV" to get the analysis
+   - Click "Generate Draft" to get the analysis
 
 ## Dependencies
 
@@ -59,7 +54,7 @@ streamlit run main.py
 ## Project Structure
 
 - `main.py`: Main application file with Streamlit interface
-- `llama_backend.py`: Backend logic for CV evaluation
+- `llama_backend.py`: Backend logic for Cover Letter Draft Generation
 - `requirements.txt`: Project dependencies
 - `README.md`: Project documentation
 
